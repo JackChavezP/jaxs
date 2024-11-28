@@ -1,0 +1,266 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Satisfy&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600&family=Roboto:wght@100;300;400;500;700&display=swap');
+
+
+
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: #f5f4f0;
+}
+
+.container {
+    max-width: 1900px;
+    margin: 0 auto;
+}
+.header {
+    display: flex;
+    align-items: center;
+    min-height: 70vh;
+
+}
+.menu {
+    max-width: 1200px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f5f4f0;
+    
+}
+.menux {
+
+    border-radius: 2px;
+    border-radius: 15px;
+    box-shadow: 1em 2em 3em rgba(0, 0, 0, 0.08);
+    max-width: 3000px;
+    position: absolute;
+    top: 0;
+    left: 10px;
+    right: 10px;
+    display: flex;
+    background-color: #f5f4f0;
+    height: 70px;
+}
+
+.menu .navbar ul li {
+    position: relative;
+    float: left;
+}
+.menu .navbar ul li a {
+    font-size: 18px;
+    padding: 20px;
+    color: #030301;
+    display: block;
+    font-weight: 600;
+}
+#menu {
+    display: none;
+    
+}
+
+.menu h3 {
+    color: #000000;
+
+}
+
+
+
+.menu-icono {
+    width: 25px;
+}
+
+.menu label {
+    cursor: pointer;
+    display: none;
+
+}
+
+.header-txt h1 {
+    font-family: "Satisfy", cursive;
+    color: #030301;
+    font-size: 70px;
+    line-height: 80px;
+    margin-bottom: 35px;
+}
+
+.header-txt p {
+    font-size: 16px;
+    color: #5b5b5a;
+    margin-bottom: 35px;
+
+}
+
+
+
+.geo {
+    padding: 100px 0;
+    display: flex;
+}
+.geo-1 .geo-2 {
+    width: 50%;
+}
+
+.geo-1 h2 {
+    font-size: 50px;
+    color: #030301;
+    font-family: "Satisfy", cursive;
+    margin-bottom: 30px;
+}
+
+.geo-1 p {
+    font-size: 16px;
+    color: #5b5b5a;
+    margin-bottom: 15px;
+}
+
+.map {
+    width: 99%;
+    height: 905px;
+    left: 40px;
+    right: 5px;
+    padding-left: 20px;
+}
+    
+
+.bar-lateral{
+    position: fixed;
+    top: 76px;
+    overflow: hidden;
+    overflow-y: auto;
+    height: 91%;
+    width: 320px;
+    padding-top: 10px;
+    padding-right: 10px;
+    left: 10px;
+    background-color: #f5f4f0;
+    border-radius: 25px;
+}
+.bar-lateral .options{
+    list-style: none;
+}
+.bar-lateral .options li a img{
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    line-height: 24px;
+    margin-right: 24px;
+}
+.bar-lateral .options li a{
+    font-size: 20px;
+    color: #0f0f0f;
+    display: flex;
+    align-items: center;
+    justify-content:left;
+    text-decoration: none;
+    color: #000;
+    padding: 10px;
+    border-radius: 15px;
+    margin-left: 10px;
+}
+
+.bar-lateral .options h3 {
+    font-size: 30px;
+    color: #0f0f0f;
+    display: flex;
+    align-items: center;
+    justify-content:left;
+    font-family: "Poppins", sans-serif;
+    color: #000000;
+    padding: 10px;
+    border-radius: 15px;
+    margin-left: 10px;
+}
+
+.bar-lateral .options li a:hover{
+    background-color: #f2f2f2 ;
+}
+.bar-lateral hr{
+    margin: 12px 0;
+    border: none;
+    border-bottom: 1px solid #ccc;
+}
+.bar-lateral h3{
+    background-color:#f5f4f0 ;
+    font-size: 16px;
+    font-weight:normal;
+    font-family: "Poppins", sans-serif;
+    padding: 0px 10px 0px;
+}
+.bar-lateral #subscriptions li a img{
+    display: block;
+    border-radius: 50%;
+}
+.bar-lateral .links{
+margin-bottom: 20px;
+}
+.bar-lateral .links a{
+    color: #606060;
+    font-size: 13px;
+    font-weight: bold;
+    text-decoration: none;
+    margin-right: 8px;
+}
+.bar-lateral .google{
+    display: block;
+    font-size: 12px;
+    color: #909090;
+    padding: 24px 0;
+}
+.little-menu{
+    display: flex;
+}
+.little-menu li a{
+    display: block !important;
+    font-size: 10px !important;
+    padding: 10px 0 !important;
+    position: relative;
+    margin-left: 0px !important;
+}
+.little-menu li a img{
+    margin-left: 20px !important;
+    text-align: center;
+}
+.little-menu li a .text{
+    display: block;
+    text-align: center;
+}
+.little-menu li{
+    margin-bottom: 10px;
+}
+
+.bng-2 {
+    
+    display: inline-block;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #fcbe36;
+    color: #f6f6f6;
+    font-size: 17px;
+    text-transform: capitalize;
+    border-radius: 15px;
+    border: 0;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);  
+}
+
+
+
+
+
+
+
+
+
